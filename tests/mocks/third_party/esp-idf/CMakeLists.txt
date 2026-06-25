@@ -1,0 +1,2 @@
+add_subdirectory(esp_partition)
+add_subdirectory(esp_ota_ops)

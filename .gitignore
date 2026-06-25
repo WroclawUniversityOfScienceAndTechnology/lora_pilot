@@ -15,6 +15,7 @@ package-lock.json
 .devcontainer/.env
 .conan2
 .codex
+.venv
 
 ### Linux ###
 *~

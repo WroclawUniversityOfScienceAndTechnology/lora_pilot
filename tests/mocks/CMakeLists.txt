@@ -1,1 +1,2 @@
 add_subdirectory(static_mock)
+add_subdirectory(third_party)

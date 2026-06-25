@@ -38,7 +38,9 @@ cflags   = "-Os -DNDEBUG"
 cxxflags = "-Os -DNDEBUG"
 
 [check]
-exclude = []
+exclude = [
+    "tests/mocks/third_party",
+]
 
 [check.pragma]
 exclude = []
@@ -64,7 +66,7 @@ directories = [
     "main/",
 ]
 suppress = [
-#    "unusedFunction",
+    "unusedFunction",
     "missingIncludeSystem",
     "unmatchedSuppression"
 ]
